@@ -30,7 +30,8 @@ extension LocationManager:  CLLocationManagerDelegate {
         case .denied:
             print("you have denied the app to access your location")
         case .authorizedAlways, .authorizedWhenInUse:
-            print("location")
+            guard let location = locationManager.location else { return }
+            region = MKCoordinateRegion(center: location.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.25, longitudeDelta: 0.25))
         @unknown default:
             break
         }
