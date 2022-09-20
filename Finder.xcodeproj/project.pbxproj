@@ -12,6 +12,7 @@
 		D0F81E2028D9B5AF00B04D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F81E1F28D9B5AF00B04D30 /* Assets.xcassets */; };
 		D0F81E2328D9B5AF00B04D30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F81E2228D9B5AF00B04D30 /* Preview Assets.xcassets */; };
 		D0F81E2B28D9B6B200B04D30 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F81E2A28D9B6B200B04D30 /* LocationManager.swift */; };
+		D0F81E2E28D9BA9400B04D30 /* MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F81E2D28D9BA9400B04D30 /* MKCoordinateRegion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D0F81E1F28D9B5AF00B04D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0F81E2228D9B5AF00B04D30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0F81E2A28D9B6B200B04D30 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		D0F81E2D28D9BA9400B04D30 /* MKCoordinateRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKCoordinateRegion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		D0F81E1A28D9B5AE00B04D30 /* Finder */ = {
 			isa = PBXGroup;
 			children = (
+				D0F81E2C28D9BA5800B04D30 /* Extensions */,
 				D0F81E2928D9B62B00B04D30 /* Services */,
 				D0F81E1B28D9B5AE00B04D30 /* FinderApp.swift */,
 				D0F81E1D28D9B5AE00B04D30 /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				D0F81E2A28D9B6B200B04D30 /* LocationManager.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		D0F81E2C28D9BA5800B04D30 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0F81E2D28D9BA9400B04D30 /* MKCoordinateRegion.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				D0F81E1E28D9B5AE00B04D30 /* ContentView.swift in Sources */,
 				D0F81E1C28D9B5AE00B04D30 /* FinderApp.swift in Sources */,
 				D0F81E2B28D9B6B200B04D30 /* LocationManager.swift in Sources */,
+				D0F81E2E28D9BA9400B04D30 /* MKCoordinateRegion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
